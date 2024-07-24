@@ -1,0 +1,205 @@
+h1  {
+    font-family: Poppins;
+    color: #ffffff;
+    text-align: center;
+    font-size: 3rem;  
+    margin-top: 2rem;      
+    }
+h2   {
+    text-align: center;
+    font-family: Poppins;
+}
+
+p   {
+    text-align: center;
+    font-family: Poppins;
+}
+
+
+body {
+    color: #ffffff;
+    text-align: center;
+    animation: changeColors 4s infinite;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    }  
+
+
+.container {
+      display: flex;
+      height: 100vh;
+  }
+  
+.left-side, .right-side {
+      flex: 1;
+      padding: 20px;
+  }
+
+
+@keyframes changeColors {
+        0% {
+          background: linear-gradient(45deg, #5D0E41, #00224D);
+        }
+        50% {
+          background: linear-gradient(45deg, #A0153E, #00224D);
+        }
+        100% {
+          background: linear-gradient(45deg, #FF204E, #00224D);
+        }
+      }
+      
+      
+
+
+
+button {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Poppins;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #00224D;
+    background-color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 20px;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    }
+
+button:hover {
+    box-shadow: 0 0 10px 0 #00224D inset, 0 0 20px 2px #00224D;
+    }
+
+label {
+        font-family: Poppins;
+        }
+
+
+
+
+
+
+    .poppins-thin {
+        font-family: "Poppins", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      }
+      
+      .poppins-thin-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 100;
+        font-style: italic;
+      }
+      
+      .poppins-extralight {
+        font-family: "Poppins", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+      }
+      
+      .poppins-extralight-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 200;
+        font-style: italic;
+      }
+      
+      .poppins-light {
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+      
+      .poppins-light-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+      }
+      
+      .poppins-regular {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .poppins-regular-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+      
+      .poppins-medium {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+      
+      .poppins-medium-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+      }
+      
+      .poppins-semibold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+      }
+      
+      .poppins-semibold-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: italic;
+      }
+      
+      .poppins-bold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+      .poppins-bold-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+      }
+      
+      .poppins-extrabold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+      }
+      
+      .poppins-extrabold-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        font-style: italic;
+      }
+      
+      .poppins-black {
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+      }
+      
+      .poppins-black-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-style: italic;
+      }
+      
